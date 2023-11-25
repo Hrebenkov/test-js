@@ -1,11 +1,12 @@
 function normalizeInput(input, to) {
-	if (to === "upper") {
-		return input.toUpperCase();
-    
-  }
-  else {
-	  return input.toLowerCase();
- }
+//	if (to === "upper") {
+//		return input.toUpperCase();
+//    
+//  }
+//  else {
+//	  return input.toLowerCase();
+//	}
+	return input = to === "upper" ? input.toUpperCase() : input.toLowerCase();
 }
 
 console.log(normalizeInput("This ISN'T SpaM", "lower"));

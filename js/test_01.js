@@ -1,5 +1,5 @@
 function checkStorage(available, ordered) {
-  if (available<ordered) {
+  if (available < ordered) {
     return (`Your order is too large, there are not enough items in stock!`)
     
   }
